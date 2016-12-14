@@ -17,6 +17,7 @@ for iter = 1:num_iters
     %       of the cost function (computeCostMulti) and gradient here.
     %
 
+ % This solution works also for gradientDescent.m
 
   Hx = X*theta;
   dt  = (X'*(Hx-y));
